@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test-suite]">
+  <test thread-count="5" name="TestNg practice(failed)">
+    <classes>
+      <class name="salesforceTestCases.SeleniumFinal.TestNG">
+        <methods>
+          <include name="CheckRemeberMe_TC03"/>
+          <include name="ForgotPassword_TC4B"/>
+          <include name="InitialDriver"/>
+          <include name="TC05"/>
+          <include name="ForgotPassword_TC4A"/>
+        </methods>
+      </class> <!-- salesforceTestCases.SeleniumFinal.TestNG -->
+    </classes>
+  </test> <!-- TestNg practice(failed) -->
+</suite> <!-- Failed suite [Test-suite] -->
